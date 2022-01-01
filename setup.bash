@@ -1,6 +1,6 @@
 #!/bin/bash
 
-git clone https://github.com/rbenv/rbenv.git $HOME/.rbenv --depth 1
+git clone https://github.com/rbenv/rbenv.git "$HOME/.rbenv" --depth 1
 rbenvpath="$HOME/.rbenv/shims:$HOME/.rbenv/bin"
 echo "export PATH=\"$rbenvpath:\$PATH\"" >> ~/.bashrc
 export PATH="$rbenvpath:$PATH"
