@@ -1,4 +1,4 @@
-# wsl-rbenv  
+# Debian (-based) wsl-rbenv  
 
 Source:  
 https://github.com/rbenv/rbenv  
