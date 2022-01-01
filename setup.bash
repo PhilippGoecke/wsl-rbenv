@@ -1,6 +1,9 @@
+#!/bin/bash
+
 git clone https://github.com/rbenv/rbenv.git $HOME/.rbenv --depth 1
-echo 'export PATH="$HOME/.rbenv/shims:$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
-export PATH="$HOME/.rbenv/shims:$HOME/.rbenv/bin:$PATH"
+RBENVPATH = '$HOME/.rbenv/shims:$HOME/.rbenv/bin'
+echo 'export PATH="$RBENVPATH:$PATH"' >> ~/.bashrc
+export PATH="$RBENVPATH:$PATH"
 rbenv init
 
 mkdir -p "$(rbenv root)"/plugins
