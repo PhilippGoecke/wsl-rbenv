@@ -1,11 +1,11 @@
-# wsl-rbenv
+# wsl-rbenv  
 
-Source:
-https://github.com/rbenv/rbenv
-https://github.com/rbenv/ruby-build
+Source:  
+https://github.com/rbenv/rbenv  
+https://github.com/rbenv/ruby-build  
 
-dependencies:
-apt install git curl
+dependencies:  
+apt install git curl  
 
-usage:
-curl -fsSL https://raw.githubusercontent.com/PhilippGoecke/wsl-rbenv/main/setup.bash | bash
+usage:  
+curl -fsSL https://raw.githubusercontent.com/PhilippGoecke/wsl-rbenv/main/setup.bash | bash  
