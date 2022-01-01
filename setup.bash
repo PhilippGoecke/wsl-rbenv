@@ -15,4 +15,4 @@ curl -fsSL https://github.com/rbenv/rbenv-installer/raw/main/bin/rbenv-doctor | 
 
 rbenv install -l
 rbenv install 3.1.0
-rbenv install -L
+rbenv versions
